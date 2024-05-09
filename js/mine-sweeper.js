@@ -200,6 +200,7 @@ function startOver() {
 
     gGame.state = "BEFORE"
     buildBoard(-1, -1)
+    gGame.markedCount = 0
     renderBoard()
 }
 
@@ -248,8 +249,9 @@ function onCellClicked(event, i, j) {
                     gBoard[i][j].isMarked = true
                 }
 
-                renderBoard()
                 checkAndAlertVictory()
+                renderBoard()
+
 
             }
             break;

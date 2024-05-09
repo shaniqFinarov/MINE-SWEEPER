@@ -1,6 +1,8 @@
 h1 {
-    color: rgb(226, 43, 195);
+    color: cornflowerblue;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 table,
@@ -20,7 +22,7 @@ td {
     width: 30px;
     text-align: center;
     font-weight: bold;
-    background-color: grey
+    background-color: darkcyan
 }
 
 div {
@@ -32,11 +34,18 @@ div {
     font-size: 20px
 }
 
+img {
+    margin-bottom: 20px;
+    display: inline;
+
+}
+
 .counter {
     margin-bottom: 20px;
-    font-size: 20px;
-    text-align: left;
-
+    font-size: 30px;
+    text-align: center;
+    color: rgb(230, 105, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
